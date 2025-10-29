@@ -23,9 +23,13 @@ function Post() {
 
       {posts.map((post) => (
         <div className='m-3' key={post.id}>
-          <div className='d-flex' >
-            <img className="rounded-circle dp " src={post.userImage} alt="insta profile" />
-            <h5>{post.username}</h5>
+          <div className='d-flex align-items-center gap-2'>
+            <img
+              className="rounded-circle dp"
+              src={post?.userImage}
+              alt={`${post?.username}'s profile`}
+            />
+            <h5>{post?.username}</h5>
           </div>
           <img className="image " src={post.postImage} alt="post image" />
 
