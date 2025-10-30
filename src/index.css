@@ -8,7 +8,7 @@
     width: 100px;
 }
 .story{
-    height: 100px ;
+    height: 80px ;
 }
 .dp{
   width: 32px;
@@ -28,3 +28,24 @@ button {
 .dps{
   width: 39px;
 }
+
+.gradiant-border {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(45deg , #ff00ff , #ff6600 , #ffcc00);
+}
+.story-dp{
+  width: 40px;
+
+}
+.story-image{
+  margin: 100px;
+  width: 550px;
+  height: 550px;
+}
+ 
+/* Gradient Border for Story */

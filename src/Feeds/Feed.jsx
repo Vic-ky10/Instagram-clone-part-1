@@ -7,7 +7,7 @@ import Post from './Post'
 function Feed() {
   return (
     <div>
-      <div className=' story bg-info'><Story /></div>
+      <div className=' story '><Story /></div>
       <div><Post /> </div>
 
     </div>
