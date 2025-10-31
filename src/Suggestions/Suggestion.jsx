@@ -1,5 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { FollowersContext } from "../FollowersContext";
+import { useNavigate } from 'react-router-dom'
+
 
 
 
@@ -8,6 +10,7 @@ function Suggestion() {
   const [suggestions, setSuggestions] = useState([]);
   const { addFollower } = useContext(FollowersContext);
   const [followed, setFollowed] = useState({});
+   const navigate = useNavigate()
 
   useEffect(() => {
     fetch('http://localhost:3000/Profile')
@@ -32,8 +35,8 @@ function Suggestion() {
     <div>
       {profile ? (
         <div className="m-4 d-flex">
-          <img className="rounded-circle dp" src={profile.userImage} alt="insta profile" />
-          <h6 className="mt-1">{profile.username}</h6>
+          <img className="rounded-circle dp" src={profile.userImage} alt="insta profile"  onClick={()=> {navigate('/profile')}}/>
+          <h6 className="mt-1" style={{cursor:"pointer"}} onClick={()=> {navigate('/profile')}}>{profile.username}</h6>
           <h6 className="text-primary ms-2 mt-1">Switch</h6>
         </div>
       ) : (
