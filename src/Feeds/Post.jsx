@@ -19,7 +19,7 @@ function Post() {
   return (
     <div>
 
-      {posts ? (<div> posts </div>) : (<div> posts Loading ...</div>)}
+     
 
       {posts.map((post) => (
         <div className='m-3' key={post.id}>

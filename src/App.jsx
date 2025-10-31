@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import Feed from './Feeds/Feed'
-import Suggestion from './Suggestions/Suggestion '
+import Suggestion from './Suggestions/Suggestion'
 
 function App() {
   return (

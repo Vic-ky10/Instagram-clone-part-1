@@ -1,142 +1,164 @@
 {
-"posts" : [
-  {
+  "posts": [
+    {
+      "id": "1",
+      "username": "travel_explorer",
+      "userImage": "https://randomuser.me/api/portraits/women/1.jpg",
+      "Location": "Bali, Indonesia",
+      "postImage": "https://images.unsplash.com/photo-1512100356356-de1b84283e18",
+      "caption": "Paradise found 🌴 #balilife #travel #wanderlust",
+      "Likes": 1234,
+      "timestamp": "2023-10-28T09:00:00Z",
+      "comments": [
+        {
+          "username": "adventurer",
+          "comment": "This looks amazing! 😍"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "username": "foodie_delights",
+      "userImage": "https://randomuser.me/api/portraits/men/2.jpg",
+      "Location": "Paris, France",
+      "postImage": "https://images.unsplash.com/photo-1554118811-1e0d58224f24",
+      "caption": "Perfect morning with perfect croissants ☕️🥐 #foodporn #paris",
+      "Likes": 2156,
+      "timestamp": "2023-10-27T08:30:00Z",
+      "comments": [
+        {
+          "username": "chef_marie",
+          "comment": "Looks delicious! 👨‍🍳"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "username": "fitness_guru",
+      "userImage": "https://randomuser.me/api/portraits/women/3.jpg",
+      "Location": "Fitness First Gym",
+      "postImage": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+      "caption": "No pain, no gain 💪 #fitness #workout #motivation",
+      "Likes": 3421,
+      "timestamp": "2023-10-26T15:45:00Z",
+      "comments": [
+        {
+          "username": "gym_lover",
+          "comment": "Keep crushing it! 💪"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "username": "tech_enthusiast",
+      "userImage": "https://randomuser.me/api/portraits/men/4.jpg",
+      "Location": "Silicon Valley",
+      "postImage": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "caption": "New setup complete! 🖥️ #tech #setup #coding",
+      "Likes": 1876,
+      "timestamp": "2023-10-25T18:20:00Z",
+      "comments": [
+        {
+          "username": "dev_master",
+          "comment": "Sweet setup! What specs? 🤓"
+        }
+      ]
+    }
+  ],
+  "Profile": {
     "id": 1,
-    "username": "travel_explorer",
-    "userImage": "https://randomuser.me/api/portraits/women/1.jpg",
-    "Location": "Bali, Indonesia",
-    "postImage": "https://images.unsplash.com/photo-1512100356356-de1b84283e18",
-    "caption": "Paradise found 🌴 #balilife #travel #wanderlust",
-    "Likes": 1234,
-    "timestamp": "2023-10-28T09:00:00Z",
-    "comments": [
-      {
-        "username": "adventurer",
-        "comment": "This looks amazing! 😍"
-      }
-    ]
+    "username": "vicky ",
+    "userImage": "https://randomuser.me/api/portraits/men/4.jpg"
   },
-  {
-    "id": 2,
-    "username": "foodie_delights",
-    "userImage": "https://randomuser.me/api/portraits/men/2.jpg",
-    "Location": "Paris, France",
-    "postImage": "https://images.unsplash.com/photo-1554118811-1e0d58224f24",
-    "caption": "Perfect morning with perfect croissants ☕️🥐 #foodporn #paris",
-    "Likes": 2156,
-    "timestamp": "2023-10-27T08:30:00Z",
-    "comments": [
-      {
-        "username": "chef_marie",
-        "comment": "Looks delicious! 👨‍🍳"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "username": "fitness_guru",
-    "userImage": "https://randomuser.me/api/portraits/women/3.jpg",
-    "Location": "Fitness First Gym",
-    "postImage": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
-    "caption": "No pain, no gain 💪 #fitness #workout #motivation",
-    "Likes": 3421,
-    "timestamp": "2023-10-26T15:45:00Z",
-    "comments": [
-      {
-        "username": "gym_lover",
-        "comment": "Keep crushing it! 💪"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "username": "tech_enthusiast",
-    "userImage": "https://randomuser.me/api/portraits/men/4.jpg",
-    "Location": "Silicon Valley",
-    "postImage": "https://images.unsplash.com/photo-1518770660439-4636190af475",
-    "caption": "New setup complete! 🖥️ #tech #setup #coding",
-    "Likes": 1876,
-    "timestamp": "2023-10-25T18:20:00Z",
-    "comments": [
-      {
-        "username": "dev_master",
-        "comment": "Sweet setup! What specs? 🤓"
-      }
-    ]
-  }
-], 
-
-"Profile" :{
-  "id": 1,
-    "username": "vicky-007",
-    "userImage": "https://randomuser.me/api/portraits/men/1.jpg"
-},
-"Suggestion" : [
-
-  {
-    "id": 1,
-    "username": "nature_lover",
-    "userImage": "https://randomuser.me/api/portraits/women/5.jpg"
-  },
-  {
-    "id": 2,
-    "username": "urban_explorer",
-    "userImage": "https://randomuser.me/api/portraits/men/6.jpg"
-  },
-  {
-    "id": 3,
-    "username": "fitness_freak",
-    "userImage": "https://randomuser.me/api/portraits/women/7.jpg"
-  },
-  {
-    "id": 4,
-    "username": "tech_savvy",
-    "userImage": "https://randomuser.me/api/portraits/men/8.jpg"
-  },
-  {
-    "id": 5,
-    "username": "food_craver",
-    "userImage": "https://randomuser.me/api/portraits/women/9.jpg"
-  }
-],
-"stories": [
-  {
-    "id": 1,
-    "username": "travel_explorer",
-    "userImage": "https://randomuser.me/api/portraits/women/1.jpg",
-    "storyImage": "https://images.unsplash.com/photo-1512100356356-de1b84283e18",
-    "timestamp": "2023-10-28T09:00:00Z"
-  },
-  {
-    "id": 2,
-    "username": "foodie_delights",
-    "userImage": "https://randomuser.me/api/portraits/men/2.jpg",
-    "storyImage": "https://images.unsplash.com/photo-1554118811-1e0d58224f24",
-    "timestamp": "2023-10-27T08:30:00Z"
-  },
-  {
-    "id": 3,
-    "username": "fitness_guru",
-    "userImage": "https://randomuser.me/api/portraits/women/3.jpg",
-    "storyImage": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
-    "timestamp": "2023-10-26T15:45:00Z"
-  },
-  {
-    "id": 4,
-    "username": "tech_enthusiast",
-    "userImage": "https://randomuser.me/api/portraits/men/4.jpg",
-    "storyImage": "https://images.unsplash.com/photo-1518770660439-4636190af475",
-    "timestamp": "2023-10-25T18:20:00Z"
-  },
-  {
-    "id": 5,
-    "username": "nature_lover",
-    "userImage": "https://randomuser.me/api/portraits/women/5.jpg",
-    "storyImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
-    "timestamp": "2023-10-24T12:00:00Z"
-  }
-]
-
-
+  "Suggestion": [
+    {
+      "id": "1",
+      "username": "nature_lover",
+      "userImage": "https://randomuser.me/api/portraits/women/5.jpg"
+    },
+    {
+      "id": "2",
+      "username": "urban_explorer",
+      "userImage": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    {
+      "id": "3",
+      "username": "fitness_freak",
+      "userImage": "https://randomuser.me/api/portraits/women/7.jpg"
+    },
+    {
+      "id": "4",
+      "username": "tech_savvy",
+      "userImage": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    {
+      "id": "5",
+      "username": "food_craver",
+      "userImage": "https://randomuser.me/api/portraits/women/9.jpg"
+    }
+  ],
+  "stories": [
+    {
+      "id": "1",
+      "username": "travel_explorer",
+      "userImage": "https://randomuser.me/api/portraits/women/1.jpg",
+      "storyImage": "https://images.unsplash.com/photo-1512100356356-de1b84283e18",
+      "timestamp": "2023-10-28T09:00:00Z"
+    },
+    {
+      "id": "2",
+      "username": "foodie_delights",
+      "userImage": "https://randomuser.me/api/portraits/men/2.jpg",
+      "storyImage": "https://images.unsplash.com/photo-1554118811-1e0d58224f24",
+      "timestamp": "2023-10-27T08:30:00Z"
+    },
+    {
+      "id": "3",
+      "username": "fitness_guru",
+      "userImage": "https://randomuser.me/api/portraits/women/3.jpg",
+      "storyImage": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+      "timestamp": "2023-10-26T15:45:00Z"
+    },
+    {
+      "id": "4",
+      "username": "tech_enthusiast",
+      "userImage": "https://randomuser.me/api/portraits/men/4.jpg",
+      "storyImage": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "timestamp": "2023-10-25T18:20:00Z"
+    },
+    {
+      "id": "5",
+      "username": "nature_lover",
+      "userImage": "https://randomuser.me/api/portraits/women/5.jpg",
+      "storyImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
+      "timestamp": "2023-10-24T12:00:00Z"
+    }
+  ],
+  "followers": [
+    {
+      "id": "2",
+      "username": "urban_explorer",
+      "userImage": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    {
+      "id": "3",
+      "username": "fitness_freak",
+      "userImage": "https://randomuser.me/api/portraits/women/7.jpg"
+    },
+    {
+      "id": "4",
+      "username": "tech_savvy",
+      "userImage": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    {
+      "id": "5",
+      "username": "food_craver",
+      "userImage": "https://randomuser.me/api/portraits/women/9.jpg"
+    },
+    {
+      "id": "1",
+      "username": "nature_lover",
+      "userImage": "https://randomuser.me/api/portraits/women/5.jpg"
+    }
+  ]
 }
-

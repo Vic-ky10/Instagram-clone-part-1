@@ -4,23 +4,18 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import ViewStory from './Feeds/ViewStory.jsx'
 import Profile from './Profile.jsx'
+import Followers from './Followers.jsx'
+import {FollowersProvider} from './FollowersProvider.jsx'
 
 const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />
-  },
-  {
-    path: '/story/:id/:next',
-    element: <ViewStory />
-  },{
-    path :'/profile',
-    element : <Profile />
-  }
+  { path: '/', element: <App /> },
+  { path: '/story/:id/:next', element: <ViewStory /> },
+  { path: '/profile', element: <Profile /> },
+  { path: '/followers', element: <Followers /> }
 ])
 
 createRoot(document.getElementById('root')).render(
-  
+  <FollowersProvider>
     <RouterProvider router={router} />
-  
+  </FollowersProvider>
 )
