@@ -1,0 +1,31 @@
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 3px solid #007bff;
+}
+
+.follower-img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.btn {
+  border-radius: 20px;
+}
+
+.followers-tab {
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 10px;
+}

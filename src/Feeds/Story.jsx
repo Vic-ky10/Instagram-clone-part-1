@@ -6,8 +6,8 @@ function Story() {
   
   const[stories , setStories] = useState([])
   const navigate = useNavigate();
+  
   useEffect(() => {
-
     fetch('http://localhost:3000/stories')
     .then((res)=> res.json())
     .then((data) => setStories(data))
@@ -24,6 +24,7 @@ function Story() {
          stories.map((story) => (
               <div  key={story.id} className='mx-1'>
                 <div className="gradiant-border">
+                    
                       <img className ="rounded-circle story-dp"src={story.userImage} alt="story.id"
                       onClick={()=> {navigate(`story/${story.id}/${next}`)  }} />
                 </div>

@@ -26,8 +26,8 @@ function Post() {
           <div className='d-flex align-items-center gap-2'>
             <img
               className="rounded-circle dp"
-              src={post?.userImage}
-              alt={`${post?.username}'s profile`}
+              src={post.userImage}
+              alt={`${post.username}'s profile`}
             />
             <h5>{post?.username}</h5>
           </div>

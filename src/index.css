@@ -11,8 +11,8 @@
     height: 80px ;
 }
 .dp{
-  width: 32px;
-  height: 32px;
+  width: 42px;
+  height: 42px;
   margin-right: 10px;
 }
 .image{
@@ -26,12 +26,12 @@ button {
   padding: 4px 12px;
 }
 .dps{
-  width: 39px;
+  width: 49px;
 }
 
 .gradiant-border {
-  width: 45px;
-  height: 45px;
+  width: 60px;
+  height: 60px;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -39,7 +39,9 @@ button {
   background: linear-gradient(45deg , #ff00ff , #ff6600 , #ffcc00);
 }
 .story-dp{
-  width: 40px;
+  width: 55px;
+  height: 59px;
+ 
 
 }
 .story-image{

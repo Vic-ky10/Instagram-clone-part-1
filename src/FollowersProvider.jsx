@@ -5,7 +5,7 @@ export const FollowersProvider = ({ children }) => {
   const [followers, setFollowers] = useState([]);
 
   const addFollower = (user) => {
-    // Prevent duplicate followers
+  
     setFollowers((prev) =>
       prev.some((f) => f.id === user.id) ? prev : [...prev, user]
     );

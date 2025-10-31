@@ -1,23 +1,64 @@
 {
   "posts": [
+    
+  {
+    "id": "1",
+    "username": "travel_with_me",
+    "userImage": "https://randomuser.me/api/portraits/women/12.jpg",
+    "Location": "Paris, France",
+    "postImage": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "caption": "Evenings in Paris 🌇✨ #wanderlust #paris",
+    "Likes": 2450,
+    "timestamp": "2023-11-05T09:30:00Z",
+    "comments": [
+      {
+        "username": "adventure_guy",
+        "comment": "Paris looks magical! 😍"
+      },
+      {
+        "username": "photo_lover",
+        "comment": "That lighting tho 🔥"
+      }
+    ]
+  },
+   {
+    "id": "2",
+    "username": "nature_snapper",
+    "userImage": "https://randomuser.me/api/portraits/men/21.jpg",
+    "Location": "Yosemite National Park, USA",
+    "postImage": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca",
+    "caption": "Breathtaking views and tranquil vibes 🌲🏞️ #nature #yosemite",
+    "Likes": 2875,
+    "timestamp": "2024-03-10T08:40:00Z",
+    "comments": [
+      {
+        "username": "adventure_guy",
+        "comment": "Nature at its finest! 👏"
+      },
+      {
+        "username": "hiking_queen",
+        "comment": "This is on my bucket list!"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "username": "urban_journal",
+    "userImage": "https://randomuser.me/api/portraits/men/52.jpg",
+    "Location": "New York City, USA",
+    "postImage": "https://images.unsplash.com/photo-1464983953574-0892a716854b",
+    "caption": "Skyscrapers and street lights. City never sleeps 🏙️🌃 #NYC #citylife",
+    "Likes": 3341,
+    "timestamp": "2024-04-22T21:55:00Z",
+    "comments": [
+      {
+        "username": "photo_lover",
+        "comment": "Love the night cityscape!"
+      }
+    ]
+  },
     {
-      "id": "1",
-      "username": "travel_explorer",
-      "userImage": "https://randomuser.me/api/portraits/women/1.jpg",
-      "Location": "Bali, Indonesia",
-      "postImage": "https://images.unsplash.com/photo-1512100356356-de1b84283e18",
-      "caption": "Paradise found 🌴 #balilife #travel #wanderlust",
-      "Likes": 1234,
-      "timestamp": "2023-10-28T09:00:00Z",
-      "comments": [
-        {
-          "username": "adventurer",
-          "comment": "This looks amazing! 😍"
-        }
-      ]
-    },
-    {
-      "id": "2",
+      "id": "4",
       "username": "foodie_delights",
       "userImage": "https://randomuser.me/api/portraits/men/2.jpg",
       "Location": "Paris, France",
@@ -33,7 +74,24 @@
       ]
     },
     {
-      "id": "3",
+      "id": "5",
+      "username": "travel_explorer",
+      "userImage": "https://randomuser.me/api/portraits/women/1.jpg",
+      "Location": "Bali, Indonesia",
+      "postImage": "https://images.unsplash.com/photo-1512100356356-de1b84283e18",
+      "caption": "Paradise found 🌴 #balilife #travel #wanderlust",
+      "Likes": 1234,
+      "timestamp": "2023-10-28T09:00:00Z",
+      "comments": [
+        {
+          "username": "adventurer",
+          "comment": "This looks amazing! 😍"
+        }
+      ]
+    },
+    
+    {
+      "id": "6",
       "username": "fitness_guru",
       "userImage": "https://randomuser.me/api/portraits/women/3.jpg",
       "Location": "Fitness First Gym",
@@ -49,7 +107,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": "7",
       "username": "tech_enthusiast",
       "userImage": "https://randomuser.me/api/portraits/men/4.jpg",
       "Location": "Silicon Valley",
@@ -64,36 +122,39 @@
         }
       ]
     }
-  ],
+   
+
+],
+
   "Profile": {
     "id": 1,
-    "username": "vicky ",
+    "username": "vicky.v",
     "userImage": "https://randomuser.me/api/portraits/men/4.jpg"
   },
   "Suggestion": [
     {
       "id": "1",
-      "username": "nature_lover",
+      "username": "Nature_lover",
       "userImage": "https://randomuser.me/api/portraits/women/5.jpg"
     },
     {
       "id": "2",
-      "username": "urban_explorer",
+      "username": "Urban_explorer",
       "userImage": "https://randomuser.me/api/portraits/men/6.jpg"
     },
     {
       "id": "3",
-      "username": "fitness_freak",
+      "username": "Fitness_freak",
       "userImage": "https://randomuser.me/api/portraits/women/7.jpg"
     },
     {
       "id": "4",
-      "username": "tech_savvy",
+      "username": "Tech_savvy",
       "userImage": "https://randomuser.me/api/portraits/men/8.jpg"
     },
     {
       "id": "5",
-      "username": "food_craver",
+      "username": "Food_craver",
       "userImage": "https://randomuser.me/api/portraits/women/9.jpg"
     }
   ],
@@ -132,6 +193,27 @@
       "userImage": "https://randomuser.me/api/portraits/women/5.jpg",
       "storyImage": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0",
       "timestamp": "2023-10-24T12:00:00Z"
+    },
+    {
+      "id": "6",
+      "username": "adventurer",
+      "userImage": "https://randomuser.me/api/portraits/men/7.jpg",
+      "storyImage": "https://images.unsplash.com/photo-1512100356356-de1b84283e18",
+      "timestamp": "2023-10-28T09:00:00Z"
+    },
+    {
+      "id": "7",
+      "username": "dev_master",
+      "userImage": "https://randomuser.me/api/portraits/women/8.jpg",
+      "storyImage": "https://images.unsplash.com/photo-1554118811-1e0d58224f24",
+      "timestamp": "2023-10-27T08:30:00Z"
+    },
+    {
+      "id": "8",
+      "username": "gym_lover",
+      "userImage": "https://randomuser.me/api/portraits/men/9.jpg",
+      "storyImage": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+      "timestamp": "2023-10-26T15:45:00Z"
     }
   ],
   "followers": [
